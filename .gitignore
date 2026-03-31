@@ -1,0 +1,27 @@
+# C++ build artifacts
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Common temporary/debug files
+*.log
+*.tmp
+*.temp
+
+# VS Code and IDE settings
+.vscode/
+.idea/
+
+# CMake/Make build folders
+build/
+cmake-build-*/
+
+# Generic binaries created during local runs
+demo
+a.out
