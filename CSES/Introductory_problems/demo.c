@@ -7,7 +7,7 @@ int main()
 
     for (int i = 0; i < 12; i++)
     {
-        printf("%d ", str[i]);
+        printf("%d", str[i]);
     }
 
     printf("\n");

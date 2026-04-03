@@ -5,7 +5,7 @@ int main()
     string s;
     cin >> s;
     int counts[26] = {0};
-    for (int i = 0; i < s.size(); i++)
+    for (int i = 0; i < (int)s.size(); i++)
     {
         counts[s[i] - 'A']++;
     }
@@ -43,3 +43,8 @@ int main()
         cout << right_side << "\n";
     }
 }
+
+/*
+Hello
+123 32 34 34 45 0
+*/
